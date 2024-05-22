@@ -22,7 +22,7 @@ Installation and Setup
 1.	Clone the Repository:
    git clone https://github.com/yourusername/django-vendor-management.git cd django-vendor-management
 3.	Create Virtual Environment:
-   pipenv install (all the dependecies will be downloaded fom piplock file)
+   pipenv install (all the dependencies will be downloaded from piplock file)
 4.	Activate Virtual Environment:
    pipenv shell
 5.	Run Migrations:
