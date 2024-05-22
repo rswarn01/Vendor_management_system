@@ -63,4 +63,4 @@ Technologies Used
   •	SQLite (default database)
   •	Python
 
-Added postman collection for ease of user, also added swagger api documentation.
+Added postman collection for ease of use, also added swagger api documentation.
