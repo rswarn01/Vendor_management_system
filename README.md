@@ -22,7 +22,7 @@ Installation and Setup
 1.	Clone the Repository:
    git clone https://github.com/yourusername/django-vendor-management.git cd django-vendor-management
 3.	Create Virtual Environment:
-   pipenv install (all the dependecies will be downloaded fom piplock file)
+   pipenv install (all the dependencies will be downloaded from piplock file)
 4.	Activate Virtual Environment:
    pipenv shell
 5.	Run Migrations:
@@ -42,20 +42,20 @@ Installation and Setup
 
 API Endpoints
 Vendor Endpoints
-  •	GET /api/vendors/: List all vendors.
-  •	POST /api/vendors/: Create a new vendor.
-  •	GET /api/vendors/{vendor_id}/: Retrieve a specific vendor's details.
-  •	PUT /api/vendors/{vendor_id}/: Update a vendor's details.
-  •	DELETE /api/vendors/{vendor_id}/: Delete a vendor.
-  •	GET /api/vendors/{vendor_id}/performance/: Retrieve a vendor's performance metrics.
+1. GET /api/vendors/: List all vendors.
+2. POST /api/vendors/: Create a new vendor.
+3. GET /api/vendors/{vendor_id}/: Retrieve a specific vendor's details.
+4. PUT /api/vendors/{vendor_id}/: Update a vendor's details.
+5. DELETE /api/vendors/{vendor_id}/: Delete a vendor.
+6. GET /api/vendors/{vendor_id}/performance/: Retrieve a vendor's performance metrics.
   
 Purchase Order Endpoints
-  •	GET /api/purchase_orders/: List all purchase orders.
-  •	POST /api/purchase_orders/: Create a new purchase order.
-  •	GET /api/purchase_orders/{po_id}/: Retrieve details of a specific purchase order.
-  •	PUT /api/purchase_orders/{po_id}/: Update a purchase order.
-  •	DELETE /api/purchase_orders/{po_id}/: Delete a purchase order.
-  •	POST /api/purchase_orders/{po_id}/acknowledge/: Acknowledge a purchase order.
+1. GET /api/purchase_orders/: List all purchase orders.
+2. POST /api/purchase_orders/: Create a new purchase order.
+3. GET /api/purchase_orders/{po_id}/: Retrieve details of a specific purchase order.
+4. PUT /api/purchase_orders/{po_id}/: Update a purchase order.
+5. DELETE /api/purchase_orders/{po_id}/: Delete a purchase order.
+6. POST /api/purchase_orders/{po_id}/acknowledge/: Acknowledge a purchase order.
 
 Technologies Used
   •	Django
@@ -63,4 +63,4 @@ Technologies Used
   •	SQLite (default database)
   •	Python
 
-Added postman collection for ease of user, also added swagger api documentation.
+Added postman collection for ease of use, also added swagger api documentation.
