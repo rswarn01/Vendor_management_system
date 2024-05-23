@@ -21,6 +21,7 @@ Core Features
 Installation and Setup
 1.	Clone the Repository:
    git clone https://github.com/rswarn01/Vendor_management_system.git
+  	cd Vendor_management_system                                                                                  
     cd vendor_management
 3.	Create Virtual Environment:
    pipenv install (all the dependencies will be downloaded from piplock file)
